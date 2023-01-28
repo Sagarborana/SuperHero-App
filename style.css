@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Rubik', sans-serif;
+}
+
+.input-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    position: relative;
+}
+
+.input-container input{
+    width: 200px;
+    padding: 10px;
+}
+.input-container button{
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.superhero-item{
+    display: flex;
+    justify-content: space-around;
+    margin-block: 20px;
+    border: 2px solid black;
+    margin-inline: 10%;
+    padding-block: 10px;
+}
+
+.superhero-item h2{
+    align-self: center;
+}
+
+.superhero-item img{
+    height: 300px;
+}
+
+.superhero-item button{
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    background-color: orangered;
+    font-size: medium;
+    color: antiquewhite
+}
+
+#showfav{
+    position: absolute;
+    right:40px;
+    font-size: medium;
+    width: fit-content;
+    background-color: orangered;
+    
+    color: antiquewhite
+}
+
+button {
+    cursor: pointer;
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-size: 50px;
+    color: red;
+}
+.disable{
+    display: none;
+}
